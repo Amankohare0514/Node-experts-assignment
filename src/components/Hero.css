@@ -1,0 +1,7 @@
+
+.wavy-border {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'%3E%3Cpath fill='%236f42c1' d='M0 256l60-32c60-32 180-96 300-112s240 32 360 96 240 160 360 160 240-32 360-96 240-160 360-160 240 32 360 96 240 160 360 160h60v96H0z'/%3E%3C/svg%3E");
+    background-size: cover;
+    height: 12px;
+    pointer-events: none; /* Make sure the overlay doesn't interfere with underlying elements */
+  }
