@@ -24,7 +24,7 @@ export default function Hero() {
           <a className="hover:text-gray-200" href="#">
             Our Goals
           </a>
-          <button className="bg-yellow-300 h-[40px] w-[140px] rounded-3xl text-black hover:bg-yellow-500">Contact Us</button>
+          <button class="bg-yellow-300 h-[40px] w-[140px] rounded-3xl text-black hover:bg-yellow-500 hidden md:inline-block">Contact Us</button>
         </div>
       </nav>
       <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between px-6 py-20">
@@ -54,8 +54,18 @@ export default function Hero() {
           />
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 230"><path fill="#ffd700" fill-opacity="1" d="M0,96L120,117.3C240,139,480,181,720,186.7C960,192,1200,160,1320,144L1440,128L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="100 0 1300 200"><path fill="#ffd700" fill-opacity="1" d="M0,224L80,192C160,160,320,96,480,74.7C640,53,800,75,960,74.7C1120,75,1280,53,1360,42.7L1440,32L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
+      <div class="hidden md:block">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 230">
+    <path fill="#ffd700" fill-opacity="1" d="M0,96L120,117.3C240,139,480,181,720,186.7C960,192,1200,160,1320,144L1440,128L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path>
+  </svg>
+</div>
+
+<div class="hidden md:block">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="100 0 1300 200">
+    <path fill="#ffd700" fill-opacity="1" d="M0,224L80,192C160,160,320,96,480,74.7C640,53,800,75,960,74.7C1120,75,1280,53,1360,42.7L1440,32L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path>
+  </svg>
+</div>
+
     </div>
   )
 }
