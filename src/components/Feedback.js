@@ -2,14 +2,14 @@
 export default function Feedback() {
     return (
         <>
-        <div className="text-center mt-24">
+        <div className="text-center mt-24 shadow-black ">
         <h2 className="text-3xl sm:text-5xl ">Our Student Feedback</h2>
         <p className="mt-4 text-base sm:text-lg">
           At Learning Exp. We Are Committed To Providing You With A Superior Learning <br/> Experience That Empowers You To
           Achieve Your Goals. Join Us Today And <br/>Embark On A Journey Of Discovery, Growth, And Success.
         </p>
       </div>
-      <div className="max-w-5xl mx-auto mt-16 bg-slate-200">
+      <div className="max-w-5xl p-11 mx-auto mt-16 bg-slate-200 shadow-black">
         <div className="flex flex-col md:flex-row items-center md:items-start space-y-4 md:space-y-0 md:space-x-6">
           <img
             alt="Profile"
