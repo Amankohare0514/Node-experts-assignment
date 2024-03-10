@@ -1,7 +1,4 @@
-import Feedback from "./Feedback";
-import Service from "./Service";
-import WhyUs from "./WhyUs";
-
+import React from "react";
 
 export default function Hero() {
   const heroStyles = {
@@ -70,9 +67,6 @@ export default function Hero() {
           </svg>
         </div>
       </div>
-      <Service />
-      <WhyUs />
-      <Feedback />
     </>
   )
 }
